@@ -1,2 +1,2 @@
 # mysql-docker
-MySQL検証用Docker
+検証用 MySQL Docker
