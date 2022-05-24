@@ -1,0 +1,10 @@
+CREATE TABLE prefecture (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    code CHAR(2) NOT NULL,
+    name VARCHAR(20) NOT NULL,
+    name_kana VARCHAR(20) NOT NULL,
+    name_rome VARCHAR(40) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT NOW(),
+    PRIMARY KEY (id),
+    UNIQUE KEY (code)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
