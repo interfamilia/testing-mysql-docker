@@ -7,7 +7,6 @@ services:
     container_name: testing-mysql-docker
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: address
       TZ: "Asia/Tokyo"
     volumes:
       - ./env/my.cnf:/etc/mysql/conf.d/my.cnf
