@@ -14,6 +14,7 @@ CREATE TABLE employee (
     email VARCHAR(260) NOT NULL,
     role ENUM('developer', 'tester', 'sales', 'back-office') NOT NULL,
     position ENUM('chief', 'manager'),
+    hire_date DATE NOT NULL,
     created_at DATETIME(6) NOT NULL DEFAULT NOW(6),
     updated_at DATETIME(6) NOT NULL DEFAULT NOW(6) ON UPDATE NOW(6),
     PRIMARY KEY (id),
