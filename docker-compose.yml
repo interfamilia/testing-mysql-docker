@@ -2,14 +2,15 @@ version: "3"
 
 services:
   mysql:
-    image: mysql:latest
+    build:
+        context: .
+        dockerfile: Dockerfile
     platform: linux/x86_64
-    container_name: testing-mysql-docker
+    container_name: testing-mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
       TZ: "Asia/Tokyo"
     volumes:
-      - ./env/my.cnf:/etc/mysql/conf.d/my.cnf
       - ./init:/docker-entrypoint-initdb.d
     ports:
       - "3306:3306"
