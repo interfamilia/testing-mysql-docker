@@ -28,7 +28,7 @@ $ docker-compose up -d
 
 ### ER図
 
-![image](https://user-images.githubusercontent.com/61341140/170666586-cb4e38b8-6fba-4fa2-b6c9-9b71f43b7cf9.png)
+![image](https://user-images.githubusercontent.com/61341140/170672728-4cdd08aa-410b-4a0f-89be-424098eb56c5.png)
 
 ## メモ
 
