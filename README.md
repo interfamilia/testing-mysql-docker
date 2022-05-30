@@ -5,11 +5,13 @@
 
 SQL の練習や検証の環境として利用してください。
 
-注意）本番環境利用は想定していません。検証用としてご利用ください。
+注）本番環境利用は想定していません。検証用としてご利用ください。
 
 ## 使い方
 
-※Docker Compose をインストールしておいてください。（ Docker Desktop をインストールすれば含まれています。）
+※ Docker Compose をインストールしておいてください。
+
+（ Docker Desktop をインストールすれば含まれています。）
 
 ```
 $ clone https://github.com/interfamilia/testing-mysql-docker.git
