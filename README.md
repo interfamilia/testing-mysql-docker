@@ -19,6 +19,39 @@ $ cd ./testing-mysql-docker
 $ docker-compose up -d
 ```
 
+MySQL クライアント、または Docker Desktop の CLI から `mysql` コマンドで接続して実行してみます。
+
+※以下は Docker Desktop の CLI から実行した例です。
+
+```
+# mysql -u root -p
+Enter password: <- root と入力する。
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| company            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+
+mysql> use company;
+Database changed
+
+mysql> show tables;
++-------------------+
+| Tables_in_company |
++-------------------+
+| employee          |
+| employee_address  |
+| employee_salary   |
+| prefecture        |
++-------------------+
+```
+
 ## 作成されるデータベース
 
 ### 構成
