@@ -1,5 +1,5 @@
 # testing-mysql-docker
-検証用 MySQL Docker です。
+MySQL 検証用 Docker 環境 です。
 
 最新の MySQL がコンテナ上に初期データとともに展開されます。
 
