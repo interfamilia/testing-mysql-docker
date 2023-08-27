@@ -14,7 +14,7 @@ SQL の練習や検証の環境として利用してください。
 （ Docker Desktop をインストールすれば含まれています。）
 
 ```
-$ clone https://github.com/interfamilia/testing-mysql-docker.git
+$ git clone https://github.com/interfamilia/testing-mysql-docker.git
 $ cd ./testing-mysql-docker
 $ docker-compose up -d
 ```
